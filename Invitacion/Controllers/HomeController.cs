@@ -38,7 +38,7 @@ namespace Invitacion.Controllers
             {
                 ViewBag.Nombre = invitado_valido.nombre;
                 ViewBag.MaxInvitados = invitado_valido.no_invitados;
-                ViewBag.Niños = invitado_valido.niños;
+                ViewBag.Ninos = invitado_valido.Ninos;
             }
 
             return View();
